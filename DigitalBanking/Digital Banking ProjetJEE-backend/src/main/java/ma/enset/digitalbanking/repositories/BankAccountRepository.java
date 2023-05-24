@@ -9,7 +9,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface BankAccountRepository extends JpaRepository<Account,String> {
-    Page<Operation> findByBankAccountIdOrderByOperationDateDesc(String accountId, PageRequest of);
 
-    List<Operation> findByBankAccountId(String accountId);
 }
