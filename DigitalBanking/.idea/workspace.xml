@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e1a18c2-136e-4beb-8e7a-67ee219d6d1b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/.browserslistrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/.vscode/extensions.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/.vscode/tasks.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/accounts/accounts.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/accounts/accounts.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/accounts/accounts.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/accounts/accounts.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/customer-accounts/customer-accounts.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/customer-accounts/customer-accounts.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/customer-accounts/customer-accounts.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/customer-accounts/customer-accounts.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/customers/customers.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/customers/customers.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/customers/customers.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/customers/customers.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/model/account.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/model/customer.model.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/navbar/navbar.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/navbar/navbar.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/navbar/navbar.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/navbar/navbar.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/new-customer/new-customer.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/new-customer/new-customer.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/new-customer/new-customer.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/new-customer/new-customer.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/services/accounts.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/app/services/customer.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/assets/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-angular-front-master/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/EbankingBackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/AccountHistoryDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/AccountOperationDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/BankAccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/CreditDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/CurrentBankAccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/CustomerDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/DebitDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/SavingBankAccountDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/dtos/TransferRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/entities/AccountOperation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/entities/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/entities/CurrentAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/entities/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/entities/SavingAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/enums/AccountStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/enums/OperationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/exceptions/BalanceNotSufficientException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/exceptions/BankAccountNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/exceptions/CustomerNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/mappers/BankAccountMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/repositories/AccountOperationRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/repositories/BankAccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/repositories/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/services/BankAccountService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/services/BankAccountServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/services/BankService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/web/BankAccountRestAPI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/java/org/sid/ebankingbackend/web/CustomerRestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/digital-banking-spring-backend-master/src/test/java/org/sid/ebankingbackend/EbankingBackendApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2QG7NjBZj2kG10VzzLLNGBrvfd8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/fatim/OneDrive/Bureau/ProjetJEE",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e1a18c2-136e-4beb-8e7a-67ee219d6d1b" name="Changes" comment="" />
+      <created>1684968026297</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684968026297</updated>
+      <workItem from="1684968027622" duration="10000" />
+      <workItem from="1684968045668" duration="88000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
