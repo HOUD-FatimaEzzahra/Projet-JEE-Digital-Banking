@@ -1,7 +1,35 @@
+.bg-image {
+  position: relative;
+  width: 100%;
+}
+
 .mask-custom {
-  backdrop-filter: contrast(110%) brightness(110%) saturate(30%) sepia(0%) hue-rotate(0deg) grayscale(0%) invert(100%) blur(4px);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: contrast(110%) brightness(110%) ;
   mix-blend-mode: screen;
-  background: rgba(243, 106, 188, 0.3);
   opacity: 1;
-  filter: blur(4px);
+  filter: blur(5px);
+  z-index: 1;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+}
+
+.text-center {
+  /* Vos styles de texte personnalisés */
+}
+
+.text-white {
+  /* Vos styles de texte personnalisés */
 }

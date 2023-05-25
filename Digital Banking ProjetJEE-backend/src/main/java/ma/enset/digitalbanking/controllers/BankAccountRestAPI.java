@@ -1,4 +1,4 @@
-package ma.enset.digitalbanking.web;
+package ma.enset.digitalbanking.controllers;
 
 
 import ma.enset.digitalbanking.dtos.*;

@@ -4,12 +4,15 @@ import {CustomersComponent} from "./customers/customers.component";
 import {AccountsComponent} from "./accounts/accounts.component";
 import {NewCustomerComponent} from "./new-customer/new-customer.component";
 import {HomeComponent} from "./home/home.component";
+import {AuthComponent} from "./auth/auth.component";
 
 const routes: Routes = [
   { path :"customers", component : CustomersComponent},
   { path :"accounts", component : AccountsComponent},
+  { path: '', redirectTo: '/auth', pathMatch: 'full' }, // Redirige vers '/auth' pour la route par défaut
   { path :"new-customer", component : NewCustomerComponent},
   { path :"home", component : HomeComponent},
+  { path :"auth", component : AuthComponent},
 ];
 
 @NgModule({
