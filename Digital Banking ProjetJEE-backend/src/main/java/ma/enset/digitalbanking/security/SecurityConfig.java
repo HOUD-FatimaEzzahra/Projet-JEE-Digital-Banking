@@ -1,3 +1,4 @@
+/*
 package ma.enset.digitalbanking.security;
 
 
@@ -33,3 +34,4 @@ public class SecurityConfig {
     }
 
 }
+*/

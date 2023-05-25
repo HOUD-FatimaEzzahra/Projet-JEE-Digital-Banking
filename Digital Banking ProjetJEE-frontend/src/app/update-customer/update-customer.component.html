@@ -1,0 +1,41 @@
+<div class="container">
+  <br>
+  <br>
+  <br>
+  <div class="card col-6 offset-3 mt-5 border-info">
+    <div class="card-header" style="text-align: center; font-size: 20px; font-weight: bold">Modify Customer</div>
+    <div class="card-body">
+      <form [formGroup]="updateCustomerFormGroup" (ngSubmit)="handleUpdateCustomer()">
+        <div class="mb-3">
+          <label class="form-label">ID:</label>
+          <input type="text" formControlName="id" class="form-control" [disabled]="isDisabled">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Name:</label>
+          <input type="text" formControlName="name" class="form-control">
+          <span class="text-danger"
+                *ngIf="updateCustomerFormGroup.controls['name'].touched
+                && updateCustomerFormGroup.controls['name'].errors
+                && updateCustomerFormGroup.controls['name'].errors['required']">
+            Name is Required
+          </span>
+        </div>
+        <div class="mb-3">
+          <label class="form-label">Email:</label>
+          <input type="text" formControlName="email" class="form-control">
+          <span class="text-danger"
+                *ngIf="updateCustomerFormGroup.controls['email'].touched
+                && updateCustomerFormGroup.controls['email'].errors
+                && updateCustomerFormGroup.controls['email'].errors['email']">
+            Email is not valid
+          </span>
+        </div>
+        <br>
+        <br>
+        <div class="text-center">
+          <button [disabled]="!updateCustomerFormGroup.valid" class="btn btn-secondary btn-sm" style="width: 25%">Update</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

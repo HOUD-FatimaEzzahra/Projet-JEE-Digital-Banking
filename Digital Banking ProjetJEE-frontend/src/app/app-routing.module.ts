@@ -5,6 +5,7 @@ import {AccountsComponent} from "./accounts/accounts.component";
 import {NewCustomerComponent} from "./new-customer/new-customer.component";
 import {HomeComponent} from "./home/home.component";
 import {AuthComponent} from "./auth/auth.component";
+import {UpdateCustomerComponent} from "./update-customer/update-customer.component";
 
 const routes: Routes = [
   { path :"customers", component : CustomersComponent},
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path :"new-customer", component : NewCustomerComponent},
   { path :"home", component : HomeComponent},
   { path :"auth", component : AuthComponent},
+  { path: 'update-customer/:id', component: UpdateCustomerComponent }
 ];
 
 @NgModule({

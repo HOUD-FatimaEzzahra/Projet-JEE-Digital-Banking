@@ -35,9 +35,11 @@
             <td>{{c.name}}</td>
             <td>{{c.email}}</td>
             <td>
-              <button (click)="handleCustomerAccounts(c)" class="btn btn-outline-info btn-sm">
-                <i class="bi bi-pencil-square"></i>
-              </button>
+              <a [routerLink]="['/update-customer', c.id]">
+                <button class="btn btn-outline-info btn-sm">
+                  <i class="bi bi-pencil-square"></i>
+                </button>
+              </a>
             </td>
             <td>
               <button (click)="handleDeleteCustomer(c)" class="btn btn-outline-danger btn-sm">

@@ -26,4 +26,8 @@ export class CustomerService {
   updateCustomer(customer: Customer) {
     return this.http.put(environment.backendHost+"/customers/"+customer.id, customer);
   }
+
+  getCustomerById(customerId: number) {
+    return this.http.get(environment.backendHost+"/customers/"+customerId);
+  }
 }
