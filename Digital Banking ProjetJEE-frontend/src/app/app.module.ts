@@ -12,6 +12,8 @@ import { NewCustomerComponent } from './new-customer/new-customer.component';
 import { HomeComponent } from './home/home.component';
 import { AuthComponent } from './auth/auth.component';
 import { UpdateCustomerComponent } from './update-customer/update-customer.component';
+import { ProfileComponent } from './profile/profile.component';
+import { OpperationComponent } from './opperation/opperation.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { UpdateCustomerComponent } from './update-customer/update-customer.compo
     NewCustomerComponent,
     HomeComponent,
     AuthComponent,
-    UpdateCustomerComponent
+    UpdateCustomerComponent,
+    ProfileComponent,
+    OpperationComponent
   ],
   imports: [
     BrowserModule,

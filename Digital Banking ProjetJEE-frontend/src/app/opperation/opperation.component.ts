@@ -1,15 +1,15 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import {FormBuilder, FormGroup} from "@angular/forms";
-import {AccountsService} from "../services/accounts.service";
 import {catchError, Observable, throwError} from "rxjs";
 import {AccountDetails} from "../model/account.model";
+import {AccountsService} from "../services/accounts.service";
 
 @Component({
-  selector: 'app-accounts',
-  templateUrl: './accounts.component.html',
-  styleUrls: ['./accounts.component.css']
+  selector: 'app-opperation',
+  templateUrl: './opperation.component.html',
+  styleUrls: ['./opperation.component.css']
 })
-export class AccountsComponent implements OnInit {
+export class OpperationComponent {
   accountFormGroup! : FormGroup;
   currentPage : number =0;
   pageSize : number =5;

@@ -1,12 +1,13 @@
-package ma.enset.digitalbanking;
+package ma.enset.authentification;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DigitalBankingProjetJeeBackendApplication {
+public class AuthentificationApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DigitalBankingProjetJeeBackendApplication.class, args);
+        SpringApplication.run(AuthentificationApplication.class, args);
     }
+
 }

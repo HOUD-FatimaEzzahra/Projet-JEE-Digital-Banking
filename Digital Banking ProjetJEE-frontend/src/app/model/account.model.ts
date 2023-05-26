@@ -14,3 +14,14 @@ export interface AccountOperation {
   type:          string;
   description:   string;
 }
+
+
+export interface Account {
+  id:            number;
+  owner: string;
+  balence:        number;
+  createdAt: Date;
+
+  status:          string;
+
+}

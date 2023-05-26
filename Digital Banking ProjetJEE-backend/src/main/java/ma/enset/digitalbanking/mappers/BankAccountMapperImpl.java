@@ -1,16 +1,10 @@
 package ma.enset.digitalbanking.mappers;
 
-import ma.enset.digitalbanking.dtos.AccountOperationDTO;
-import ma.enset.digitalbanking.dtos.CurrentBankAccountDTO;
-import ma.enset.digitalbanking.dtos.CustomerDTO;
-import ma.enset.digitalbanking.dtos.SavingBankAccountDTO;
-import ma.enset.digitalbanking.entities.CurrentAccount;
-import ma.enset.digitalbanking.entities.Customer;
-import ma.enset.digitalbanking.entities.Operation;
-import ma.enset.digitalbanking.entities.SavingAccount;
+
+import ma.enset.digitalbanking.dtos.*;
+import ma.enset.digitalbanking.entities.*;
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
-
 @Service
 public class BankAccountMapperImpl {
     public CustomerDTO fromCustomer(Customer customer){
@@ -54,7 +48,7 @@ public class BankAccountMapperImpl {
         return currentAccount;
     }
 
-    public AccountOperationDTO fromAccountOperation(Operation accountOperation){
+    public AccountOperationDTO fromAccountOperation(AccountOperation accountOperation){
         AccountOperationDTO accountOperationDTO=new AccountOperationDTO();
         BeanUtils.copyProperties(accountOperation,accountOperationDTO);
         return accountOperationDTO;

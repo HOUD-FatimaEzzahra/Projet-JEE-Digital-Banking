@@ -2,6 +2,9 @@ package ma.enset.digitalbanking.controllers;
 
 
 import ma.enset.digitalbanking.dtos.*;
+import ma.enset.digitalbanking.dtos.BankAccountDTO;
+import ma.enset.digitalbanking.dtos.CreditDTO;
+import ma.enset.digitalbanking.dtos.DebitDTO;
 import ma.enset.digitalbanking.exceptions.BalanceNotSufficientException;
 import ma.enset.digitalbanking.exceptions.BankAccountNotFoundException;
 import ma.enset.digitalbanking.services.BankAccountService;
@@ -11,11 +14,10 @@ import java.util.List;
 
 @RestController
 @CrossOrigin("*")
-public class
-BankAccountRestAPI {
+public class BankAccountRestController {
     private BankAccountService bankAccountService;
 
-    public BankAccountRestAPI(BankAccountService bankAccountService) {
+    public BankAccountRestController(BankAccountService bankAccountService) {
         this.bankAccountService = bankAccountService;
     }
 
@@ -40,7 +42,7 @@ BankAccountRestAPI {
         return bankAccountService.getAccountHistory(accountId,page,size);
     }
     @PostMapping("/accounts/debit")
-    public DebitDTO debit(@RequestBody DebitDTO debitDTO) throws BankAccountNotFoundException, BalanceNotSufficientException {
+    public DebitDTO debit(@RequestBody DebitDTO debitDTO) throws BankAccountNotFoundException, BalanceNotSufficientException, BalanceNotSufficientException {
         this.bankAccountService.debit(debitDTO.getAccountId(),debitDTO.getAmount(),debitDTO.getDescription());
         return debitDTO;
     }
@@ -56,4 +58,5 @@ BankAccountRestAPI {
                 transferRequestDTO.getAccountDestination(),
                 transferRequestDTO.getAmount());
     }
+
 }
