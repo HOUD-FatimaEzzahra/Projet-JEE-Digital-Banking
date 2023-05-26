@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col col-md-4">
       <div class="card">
-        <div class="card-header">Accounts</div>
+        <div class="card-header  text-center">Accounts</div>
         <div class="card-body">
           <form [formGroup]="accountFormGroup" (ngSubmit)="handleSearchAccount()">
             <div class="input-group">
@@ -13,7 +13,6 @@
               </button>
             </div>
           </form>
-          <br>
           <ng-template #errorTemplate>
             <ng-container *ngIf="errorMessage ; else loading">
               <div class="text-danger">{{errorMessage}}</div>
@@ -27,6 +26,7 @@
             </ng-template>
           </ng-template>
           <ng-container *ngIf="accountObservable | async as accountDetails">
+            <br>
             <table class="table table-active text-center">
               <thead>
               <tr>
@@ -56,7 +56,7 @@
     </div>
     <div class="col col-md-8">
       <div class="card" *ngIf="accountObservable">
-        <div class="card-header">Add Operation</div>
+        <div class="card-header text-center">Add Operation</div>
         <div class="card-body">
 
           <form [formGroup]="operationFromGroup" (ngSubmit)="handleAccountOperation()" method="post">
@@ -92,15 +92,11 @@
       </div>
       <br>
       <div class="card" *ngIf="accountObservable">
-        <div class="card-header">Operations list</div>
+        <div class="card-header text-center">Operations list</div>
         <div class="card-body">
 
-
           <ng-container *ngIf="accountObservable | async as accountDetails">
-
-
-
-
+            <br>
             <table class="table table-active text-center">
               <thead>
               <th>ID</th><th>Date</th><th>Type</th><th>Amount</th>
@@ -114,9 +110,6 @@
               </tr>
               </tbody>
             </table>
-
-
-
             <ul class="nav nav-pills">
               <li *ngFor="let item of [].constructor(accountDetails.totalPages);let page=index">
                 <a [ngClass]="page==currentPage?'btn-info':'btn-outline-info'" (click)="gotoPage(page)" class="btn  ms-1 mt-1">{{page}}</a>

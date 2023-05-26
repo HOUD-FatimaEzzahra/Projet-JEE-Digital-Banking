@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <i class="bi bi-bank fs-3 icon-colored"></i>
+    <a class="navbar-brand text-colored" href="#">
+      <i class="bi bi-bank fs-3 icon-colored"></i> E-bank
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,27 +16,24 @@
         <li class="nav-item">
           <a class="nav-link" [ngClass]="{'active': isActive('/customers')}" routerLink="/customers">Customers</a>
         </li>
-
         <li class="nav-item">
-          <a class="nav-link" [ngClass]="{'active': isActive('/operations')}" routerLink="/operations">Accounts</a>
+          <a class="nav-link" [ngClass]="{'active': isActive('/operations')}" routerLink="/operations">Operations</a>
         </li>
       </ul>
 
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/profile">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="bi bi-person-circle"></i>
             Profile
           </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" routerLink="/auth">
-            <i class="bi bi-box-arrow-right"></i>
-            Logout
-          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" routerLink="/profile">Profile</a></li>
+            <li><a class="dropdown-item" routerLink="/auth">Logout</a></li>
+          </ul>
         </li>
       </ul>
+
     </div>
   </div>
 </nav>

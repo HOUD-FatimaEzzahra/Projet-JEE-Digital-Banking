@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import {FormBuilder, FormGroup} from "@angular/forms";
 import {catchError, Observable, throwError} from "rxjs";
-import {AccountDetails} from "../model/account.model";
+import {AccountDetails, AccountOperation} from "../model/account.model";
 import {AccountsService} from "../services/accounts.service";
 
 @Component({
@@ -16,6 +16,7 @@ export class OpperationComponent {
   accountObservable! : Observable<AccountDetails>
   operationFromGroup! : FormGroup;
   errorMessage! :string ;
+  operations: AccountOperation[] = [];
 
   constructor(private fb : FormBuilder, private accountService : AccountsService) { }
 
@@ -56,6 +57,7 @@ export class OpperationComponent {
         next : (data)=>{
           alert("Success Credit");
           this.operationFromGroup.reset();
+          this.operations.unshift(<AccountOperation>data);
           this.handleSearchAccount();
         },
         error : (err)=>{
