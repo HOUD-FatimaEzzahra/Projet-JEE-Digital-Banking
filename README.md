@@ -5,7 +5,7 @@ Ce dépôt contient le code source du projet de fin de module "Digital Banking".
 L'application est développée en utilisant les technologies suivantes :
 
 - [Backend](https://github.com/HOUD-FatimaEzzahra/Projet-JEE-Digital-Banking/tree/main/Digital%20Banking%20ProjetJEE-backend) : Java, Spring Boot, Spring Data JPA, Spring Security, JWT.
-- Frontend : Angular, HTML, CSS, TypeScript.
+- [Frontend](https://github.com/HOUD-FatimaEzzahra/Projet-JEE-Digital-Banking/tree/main/Digital%20Banking%20ProjetJEE-frontend) : Angular, HTML, CSS, TypeScript.
 - Base de données : MySQL.
 - Outils de développement : Maven, Git.
 
