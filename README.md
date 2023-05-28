@@ -13,7 +13,7 @@ L'application est développée en utilisant les technologies suivantes :
 
 L'architecture de l'application de gestion de comptes bancaires suit le modèle MVC (Modèle-Vue-Contrôleur) avec Spring et Angular, et utilise une base de données MySQL pour le stockage des données.
 
-![Architecture]([conception/archi.png](https://github.com/HOUD-FatimaEzzahra/Projet-JEE-Digital-Banking/blob/main/Conception/architecture.png))
+![Architecture](https://github.com/HOUD-FatimaEzzahra/Projet-JEE-Digital-Banking/blob/main/Conception/architecture.png)
 
 L'architecture se divise en plusieurs couches principales :
 
