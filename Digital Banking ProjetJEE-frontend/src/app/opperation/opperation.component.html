@@ -44,11 +44,7 @@
               </tbody>
             </table>
 
-            <ul class="nav nav-pills">
-              <li *ngFor="let item of [].constructor(accountDetails.totalPages);let page=index">
-                <a [ngClass]="page==currentPage?'btn-info':'btn-outline-info'" (click)="gotoPage(page)" class="btn  ms-1 mt-1">{{page}}</a>
-              </li>
-            </ul>
+
           </ng-container>
         </div>
       </div>
@@ -84,8 +80,8 @@
               <label class="form-label">Description :</label>
               <input type="text" formControlName="description" class="form-control">
             </div>
-            <div class="d-grid mb-3">
-              <button class="btn btn-secondary">Save Operation</button>
+            <div class="text-center mb-3">
+              <button class="btn btn-info btn-sm custom-button">Save Operation</button>
             </div>
           </form>
         </div>
@@ -102,19 +98,28 @@
               <th>ID</th><th>Date</th><th>Type</th><th>Amount</th>
               </thead>
               <tbody>
-              <tr *ngFor="let op of accountDetails.accountOperationDTOS">
-                <td>{{op.id}}</td>
-                <td>{{op.operationDate | date : 'dd-MM-yyyy:HH-mm-ss'}}</td>
-                <td>{{op.type}}</td>
-                <td class="text-end">{{op.amount | number : '1.2-2'}}</td>
+              <tr>
+                <td>1</td>
+                <td>2023-05-27</td>
+                <td>Débit</td>
+                <td>200</td>
               </tr>
+              <tr>
+                <td>2</td>
+                <td>2023-05-28</td>
+                <td>Crédit</td>
+                <td>300</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>2023-05-29</td>
+                <td>Transfert</td>
+                <td>500</td>
+              </tr>
+
               </tbody>
             </table>
-            <ul class="nav nav-pills">
-              <li *ngFor="let item of [].constructor(accountDetails.totalPages);let page=index">
-                <a [ngClass]="page==currentPage?'btn-info':'btn-outline-info'" (click)="gotoPage(page)" class="btn  ms-1 mt-1">{{page}}</a>
-              </li>
-            </ul>
+
           </ng-container>
         </div>
       </div>
